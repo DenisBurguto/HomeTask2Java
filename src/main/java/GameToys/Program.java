@@ -17,8 +17,11 @@ public class Program {
         Toy doll3 = new Toy(4564645, "doll3test");
         toyShopMachine.changeToyPriority(doll3, 10999);
         System.out.println(toyShopMachine);
+        System.out.println("doll3 drop priority after change: " + doll3.getDropPriority());
+
 
         toyShopMachine.putToy(doll3);
+        System.out.println(toyShopMachine);
         toyShopMachine.changeToyPriority(doll3, 4);
         System.out.println(toyShopMachine);
 
