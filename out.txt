@@ -1,0 +1,4 @@
+Toy{id=1, dropPriority=99, name='doll1'}
+Toy{id=2, dropPriority=5, name='doll2'}
+Toy{id=0, dropPriority=2, name='robot1'}
+Toy{id=3, dropPriority=0, name='doll3test'}

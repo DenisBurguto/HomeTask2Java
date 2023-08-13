@@ -39,9 +39,9 @@ public class ToyShopMachine {
 
     }
 
-    public void changeToyPriority(Toy toy, int dropFrequency) {
+    public void changeToyPriority(Toy toy, int dropPriority) {
         boolean remove = this.toys.remove(toy);
-        toy.setDropPriority(dropFrequency);
+        toy.setDropPriority(dropPriority);
         if (remove) {
             this.toys.add(toy);
         }
